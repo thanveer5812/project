@@ -1,0 +1,40 @@
+
+.swiper {
+    width: 70%;
+    margin:0 auto;
+    height: 300px;
+    padding:0 1rem;
+    overflow: hidden;
+}
+
+.swiper::selection 
+{
+    background-color: none;
+}
+.swiper-wrapper 
+{
+    width:max-content;
+    height:100%;
+    
+}
+
+.swiper-slide {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper-slide img 
+  {
+    height:100%;
+  }
+
+
+@media (max-width:700px)
+{
+    .swiper 
+    {
+        width: 100%;
+    }
+}
